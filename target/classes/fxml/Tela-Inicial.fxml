@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="745.0" prefWidth="607.0" style="-fx-background-color: #0C5DA4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.gui.TelaInicialController">
+   <children>
+
+      <Label alignment="CENTER" layoutY="479.0" prefHeight="37.0" prefWidth="604.0" text="Seja bem vindo a biblioteca da FEMASS" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="587.0" prefHeight="39.0" prefWidth="101.0" text="Usuário:" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="117.0" layoutY="626.0" mnemonicParsing="false" onAction="#btnBibliotecario" prefHeight="31.0" prefWidth="370.0" text="Bibliotecario" />
+      <Button layoutX="117.0" layoutY="677.0" mnemonicParsing="false" onAction="#btnAtendente" prefHeight="31.0" prefWidth="370.0" text="Atendente" />
+      <ImageView fitHeight="345.0" fitWidth="514.0" layoutX="45.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/femass%20icone.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
